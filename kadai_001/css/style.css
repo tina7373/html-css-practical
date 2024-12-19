@@ -59,17 +59,16 @@ header a{
 #about-content{
     display: flex;
     align-items: center;
-    margin: 5% 20%;
-    padding: 0 5% 5% 5%;
-    margin: 0 10%;
+    padding: 10px;
+    margin: 20px auto;
     flex-wrap: wrap;
+    max-width: 960px;
 }
 
 .portrait{
     border-radius: 50%;
     width: 280px;
     height: 280px;
-    margin-right: 10%;
 }
 
 .name{
@@ -83,21 +82,22 @@ header a{
 
 
 /*Works*/
-#works-content{
-    display:flex;
+.works-content{
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
+    max-width: 960px;
 }
 
 .works-box{
-    margin: 0 5%;
-    width: 20%;
+    margin: 0 10px;
+    width: 25%;
+    padding-bottom: 60px;
 }
 
-.works-box p{
-    margin: 0;
-    padding: 0;
+.works-box img{
+    width: 100%;
 }
 
 /*フッター*/
@@ -115,13 +115,25 @@ footer{
     .midashi {
       font-size: 28px;
     }
-  
-    nav li {
-      margin: 0 10px;
+
+    header div{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: nowrap; 
+        font-size: 18px;
+        margin: 0;
     }
-  
-    nav a {
-      font-size: 21px;
+
+    .portrait{
+        display: flex;
+        text-align: center;
+    }
+
+    #about-content{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
     }
   
     .works-box {
