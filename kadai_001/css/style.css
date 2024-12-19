@@ -59,25 +59,27 @@ header a{
 #about-content{
     display: flex;
     align-items: center;
-    padding: 10px;
     margin: 20px auto;
-    flex-wrap: wrap;
     max-width: 960px;
+    padding: 0 10px;
 }
 
 .portrait{
     border-radius: 50%;
     width: 280px;
     height: 280px;
+    margin: 0 8%;
 }
 
 .name{
     font-size: 24px;
 }
 
-#introducing{
-    margin: 0 auto;
-    padding: 0 10%;
+.introducing{
+    margin-left: 20px;
+    padding: 0;
+    text-align: left;
+    flex: 1;
 }
 
 
